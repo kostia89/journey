@@ -1,0 +1,215 @@
+.body-bg {
+  background-image: url(../img/bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.body-bg .head-line {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 58px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.body-bg .head-line .logo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.body-bg .head-line .logo:hover {
+  color: #01813F;
+}
+.body-bg .head-line .header-right {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+}
+.body-bg .head-line .header-right .heger-login {
+  display: flex;
+}
+.body-bg .head-line .header-right .heger-login .login-item:first-child::before {
+  content: "";
+  border-left: 1px solid rgba(255, 255, 255, 0.9);
+  padding-left: 27px;
+}
+.body-bg .head-line .header-right .heger-login a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.body-bg .head-line .header-right .heger-login a:hover {
+  color: #01813F;
+}
+.body-bg .form-login {
+  box-sizing: border-box;
+  width: 444px;
+  height: 622px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 31px 60px 38px 60px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.body-bg .form-login .hed-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.body-bg .form-login .hed-form .signup {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #434343;
+}
+.body-bg .form-login .hed-form .login {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #3CB878;
+}
+.body-bg .form-login .hed-form .login:hover {
+  color: #01813F;
+  text-decoration: underline;
+}
+.body-bg .form-login .hed-form .green-square {
+  width: 18px;
+  height: 18px;
+  background-color: #3CB878;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.body-bg .form-login .social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+.body-bg .form-login .social .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 160px;
+  height: 48px;
+  gap: 4px;
+  border-radius: 2%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.body-bg .form-login .social .fb {
+  background-color: #305DB8;
+}
+.body-bg .form-login .social .fb h2::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid #0A162F;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 18px;
+  opacity: 0.1;
+}
+.body-bg .form-login .social .fb:hover {
+  background-color: #022263;
+}
+.body-bg .form-login .social .google {
+  background-color: #DF4A32;
+}
+.body-bg .form-login .social .google h2::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid #0A162F;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 18px;
+  opacity: 0.1;
+}
+.body-bg .form-login .social .google:hover {
+  background-color: #AB1F09;
+}
+.body-bg .form-login .or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #848484;
+  margin-bottom: 12px;
+}
+.body-bg .form-login .or::before {
+  content: "";
+  border-bottom: 1px solid #F2F2F2;
+  display: inline-block;
+  width: 45%;
+}
+.body-bg .form-login .or::after {
+  content: "";
+  border-bottom: 1px solid #F2F2F2;
+  display: inline-block;
+  width: 45%;
+}
+.body-bg .form-login .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.body-bg .form-login .form .input {
+  height: 44px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #434343;
+  padding-left: 20px;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+}
+.body-bg .form-login .form .input::placeholder {
+  color: #BEBEBE;
+}
+.body-bg .form-login .form .input:active, .body-bg .form-login .form :focus, .body-bg .form-login .form :focus-visible {
+  border: 1px solid #f2f2f2;
+  outline: none;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
+.body-bg .form-login .form .colored {
+  color: #3CB878;
+}
+.body-bg .form-login .form .btn {
+  background-color: #3CB878;
+  border: none;
+  height: 46px;
+  cursor: pointer;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
